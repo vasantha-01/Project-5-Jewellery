@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Coffee Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css"><br><br><br><br><br>
+    <style>
+        body {
+            background: black;
+            color: #fff;
+        }
+        .login-form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            background: url('jewelry-bg.jpg') no-repeat center center/cover;
+        }
+
+        .login-form form {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .login-form h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .input-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .input-container .icon {
+            padding: 10px;
+            background: #333;
+            color: white;
+            min-width: 50px;
+            text-align: center;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        .input-container input {
+            padding: 10px;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-left: none;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        .input-container input:focus {
+            border-color: #4caf50;
+            outline: none;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4caf50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="logo.gif" alt="Logo">
+        </a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="review.html">Review</a>
+            <a href="contact.html">Contact</a>
+            <a href="registration.html">Registration</a>
+        </nav>
+    </header>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="logo.gif" alt="Logo">
+        </a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="review.html">Review</a>
+            <a href="contact.html">Contact</a>
+            <a href="registration.html">Registration</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <section class="login-form">
+        <form action="login-success.html" method="get" >
+            <h1>Login</h1>
+            <div class="input-container">
+                <i class="fas fa-user icon"></i>
+                <input type="text" placeholder="Username" name="username" required>
+            </div>
+            <div class="input-container">
+                <i class="fas fa-lock icon"></i>
+                <input type="password" placeholder="Password" name="password" required>
+            </div>
+            <button type="submit" class="btn">Login</button><br><br>
+            <p style="color: black;">Don't have an account? <a href="registration.html" style="color: blue;">Register here</a></p>
+        </form>
+    </section>
+    <section class="footer">
+        <div class="shar">
+            <a href="https://www.facebook.com" class="fab fa-facebook-f" target="_blank"></a>
+            <a href="https://www.twitter.com" class="fab fa-twitter" target="_blank"></a>
+            <a href="https://www.linkedin.com" class="fab fa-linkedin" target="_blank"></a>
+            <a href="https://www.instagram.com" class="fab fa-instagram" target="_blank"></a>
+            <a href="https://www.whatsapp.com" class="fab fa-whatsapp" target="_blank"></a>
+            <a href="https://www.pinterest.com" class="fab fa-pinterest" target="_blank"></a>
+        </div>
+    </section>
+    <center style="background-color: antiquewhite;">
+    <footer>
+        <section>$copy Mycompany || All rights are reserved....</section>
+    </footer>
+    </center>
+</body>
+
+</html>

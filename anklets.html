@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant Jewellery Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css"><br><br><br><br><br><br>
+    <style>
+        .icons {
+            display: flex;
+            gap: 15px;
+            font-size: 1.2em;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
+        .ring-item {
+            flex: 1 1 calc(33.333% - 20px);
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .ring-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        .ring-item img {
+            width: auto;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body class="landing-page">
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="logo.gif" alt="Logo">
+        </a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="review.html">Review</a>
+            <a href="contact.html">Contact</a>
+            <a href="registration.html">Registration</a>
+        </nav>
+    </header>
+
+    <main><br><br><br><br>
+        <center style="color: white;"><h1 class="text-center" style="text-decoration: underline; padding: 20px;">Anklets Gallery</h1></center>
+        <div class="nav-buttons">
+            <a href="about.html" class="nav-btn back-btn">Back</a>
+            <a href="rings.html" class="nav-btn next-btn">Next</a>
+        </div>
+        <section class="gallery">
+            <div class="ring-item">
+                <img src="ank1.jpeg" alt="Elegant Diamond Ring">
+                <div class="info">
+                    <h2>Simple Anklets</h2>
+                    <p>$1,200</p>
+                </div>
+            </div>
+            <div class="ring-item">
+                <img src="ank2.jpeg" alt="Gold Band Ring">
+                <div class="info">
+                    <h2>Arted Anklets</h2>
+                    <p>$500</p>
+                </div>
+            </div>
+            <div class="ring-item">
+                <img src="ank3.jpeg" alt="Vintage Ruby Ring">
+                <div class="info">
+                    <h2>Golden Anklets</h2>
+                    <p>$850</p>
+                </div>
+            </div>
+            <div class="ring-item">
+                <img src="ank4.jpeg" alt="Pearl Ring">
+                <div class="info">
+                    <h2>Heavy Anklets</h2>
+                    <p>$560</p>
+                </div>
+            </div>
+            <div class="ring-item">
+                <img src="ank5.jpeg" alt="Engage Ring">
+                <div class="info">
+                    <h2>Diamond Anklets</h2>
+                    <p>$2500</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="footer">
+        <div class="shar">
+            <a href="https://www.facebook.com" class="fab fa-facebook-f" target="_blank"></a>
+            <a href="https://www.twitter.com" class="fab fa-twitter" target="_blank"></a>
+            <a href="https://www.linkedin.com" class="fab fa-linkedin" target="_blank"></a>
+            <a href="https://www.instagram.com" class="fab fa-instagram" target="_blank"></a>
+            <a href="https://www.whatsapp.com" class="fab fa-whatsapp" target="_blank"></a>
+            <a href="https://www.pinterest.com" class="fab fa-pinterest" target="_blank"></a>
+        </div>
+    </section>
+    <center style="background-color: antiquewhite;">
+    <footer>
+        <section>$copy Mycompany || All rights are reserved....</section>
+    </footer>
+    </center>
+</body>
+</html>
